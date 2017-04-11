@@ -3,7 +3,7 @@
 # https://github.com/Twentysix26/Red-DiscordBot
 # Can be easily made more readable with classes
 # Can easily abstract everything away from the learner
-# by allowing commands to be added individual files like Red-DiscordBot
+# by allowing commands to be added as individual files like Red-DiscordBot
 
 from gitterpy3 import Gitter
 import inspect
