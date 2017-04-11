@@ -13,7 +13,7 @@ Example of how easy it is to add functionality to a bot made this way:
 
 ```py
 @command()
-def hug(msg):  # this command is triggered with !hug
+def hug(user: str):  # this command is triggered with !hug
     """gives someone a hug"""   # this becomes the !help description
-    say(msg.upper())
+    say('(っ´▽｀)っ' + user)
 ```
